@@ -1,0 +1,16 @@
+{application, virtsftp,
+ [{description, "An OTP library"},
+  {vsn, "0.1.1"},
+  {registered, []},
+  {applications,
+   [kernel,
+    stdlib,
+    ssh
+   ]},
+  {env,[]},
+  {modules, []},
+
+  {maintainers, ["<Bikram Chatterjee> chatterjee@bluewin.ch"]},
+  {licenses, ["Apache 2.0"]},
+  {links, []}
+ ]}.
